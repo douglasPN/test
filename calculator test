@@ -1,0 +1,21 @@
+number1 = ...
+number2 = ...
+resultado = ...
+operacao = ''
+
+number1 = int(input('Digite o numero 1: '))
+operacao = input('Digite a operação: ')
+number2 = int(input('Digite o numero 2: '))
+
+if operacao == '+':
+    resultado = number1 + number2
+elif operacao == '-':
+    resultado = number1 - number2
+elif operacao == '/':
+    resultado = number1 / number2
+elif operacao == '*':
+    resultado = number1 * number2
+else:
+    resultado == 'Operação inválida'
+
+print(number1, operacao, number2, '=', resultado )
